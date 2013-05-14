@@ -9,8 +9,11 @@ void allocate(int** q)
 
 int main()
 {
-  int* p = NULL;
+  int* p;
+  p = NULL;
   allocate(&p);
+  //allocate(p); This is wrong 
+  //You need to pass address of p Not The value which p is pointing to  
   printf("%X\n",p);//E46010
   *p = 42;
   free(p);
