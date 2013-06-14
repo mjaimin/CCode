@@ -1,9 +1,14 @@
-#include<stdio.h>
-void main()
+#include <stdio.h>
+void swap(int *a,int *b)
 {
-	int x = 9 ,y = 10;
-	x=x^y;
-	y=y^x;
-	x=x^y;
-	printf("%d,%d\n",x,y);
+  *a = *a ^ *b;
+  *b = *a ^ *b;
+  *a = *a ^ *b;
+}
+int main()
+{
+  int a=5, b=6;
+  swap(&a,&b);
+  printf("a=%d, b=%d \n",a,b);
+  return 0;
 }
