@@ -14,6 +14,6 @@ First A will fill then B then C then D then E and so on from right to left. Exam
 ###Big-endian Format:###
 The processors which follow the following memory representation of data are known as big-endian processor.
 
-![Alt text]("BIG ENDIAN.png" "Big-endian")
+![Alt text](BIG ENDIAN.png "Big-endian")
 
 First A will fill then B then C then D then E from right to left. Example of processor: Motorola, IBM PC etc.
