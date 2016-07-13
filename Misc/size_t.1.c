@@ -1,7 +1,4 @@
-#include <iostream>
 #include <stdio.h>
-using namespace std;
-
 int main() 
 {
    size_t sz = sizeof(long long);// size_t is unsigned int so, sz is never going to be lessthen Zero,
