@@ -4,21 +4,16 @@ using namespace std;
 
 int main() 
 {
-    bool flag = true;
-   // while(flag) // Commented loop
+   // while(1) // Commented loop
     switch ('A')
     {
-    case 'A':
-        flag = false;
-        break;
-    case 'B':
-        continue;
-    default:
-        printf("In default Statment\n");
+    case 'A': break;
+    case 'B': continue;
+    default : break;
     }    
 }
 // Error
 //prog.cpp: In function 'int main()':
 //prog.cpp:17:9: error: continue statement not within a loop
-         continue;
-         ^
+//         continue;
+//         ^
