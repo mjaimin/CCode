@@ -1,4 +1,4 @@
-![Alt text]( "../Images/ByteAlignment.png" "ByteAlignment")
+![Alt text]( ../Images/ByteAlignment.png "ByteAlignment")
 
 ![Alt text]( ../Images/WordAlignment.png "WordAlignment")
 
