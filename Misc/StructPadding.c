@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//#pragma pack(1)
 struct data1
 {
 	char j;//8//address aligned with 8byte
@@ -19,4 +20,7 @@ int main()
 {
 	printf("%d\n",sizeof(struct data1));//32
 	printf("%d\n",sizeof(struct data));//40
+//with #pragma pack(1) following
+//	printf("%d\n",sizeof(struct data1));//17
+//	printf("%d\n",sizeof(struct data));//21
 }
